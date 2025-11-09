@@ -36,36 +36,13 @@ Telegram updates get buried or ignored.
 Two tabs for clarity:
 - **Grievance Assistant** – text input → classify + suggest actions.  
 - **Circular Insights** – view summaries of fetched or uploaded circulars.
-
----
-
-## ⚙️ Tech Stack
-
-| Component | Technology |
-|------------|-------------|
-| **Language** | Python 3.10+ |
-| **Frontend/UI** | Streamlit |
-| **AI Models** | Hugging Face Transformers |
-| **Classification** | facebook/bart-large-mnli |
-| **Summarization** | facebook/bart-large-cnn |
-| **Text Generation** | google/flan-t5-base |
-| **PDF Extraction** | pdfplumber |
-| **Telegram Fetching** | python-telegram-bot |
-| **Experiment Tracking** | Comet ML |
-
----
-
 ## 🗂️ Project Structure
 
 Hackdays_DTU.AI/
 │
 ├── app.py                   # Main Streamlit interface
 ├── telegram_fetch.py        # Telegram circular extraction script
-├── grievance_router.py      # Grievance classification & suggestion logic
-├── circular_summary.py      # Summarization and branch filtering
-├── utils.py                 # Helper utilities
 ├── .env                     # API keys and environment variables
-├── requirements.txt         # Dependencies
 └── README.md
 
 ---
