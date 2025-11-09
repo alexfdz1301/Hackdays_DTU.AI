@@ -1,10 +1,7 @@
-```markdown
-# 🧠 DTU SmartConnect – AI Helpdesk & Circular Insight Engine  
+🧠 DTU SmartConnect – AI Helpdesk & Circular Insight Engine  
 *(Project under Hackdays_DTU.AI – DTU Internal Hackathon “AI for DTU”)*  
 
----
-
-## 🎯 Overview
+🎯 Overview
 **DTU SmartConnect** is an AI-powered system built to simplify how DTU students access official information and raise grievances.  
 It automates grievance routing, circular summarization, and Telegram-based circular fetching — bringing all communication into one platform.
 
@@ -60,8 +57,6 @@ Two tabs for clarity:
 
 ## 🗂️ Project Structure
 
-```
-
 Hackdays_DTU.AI/
 │
 ├── app.py                   # Main Streamlit interface
@@ -72,8 +67,6 @@ Hackdays_DTU.AI/
 ├── .env                     # API keys and environment variables
 ├── requirements.txt         # Dependencies
 └── README.md
-
-````
 
 ---
 
